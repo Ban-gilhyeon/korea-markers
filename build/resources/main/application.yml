@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Korea-Markers
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/korea_markers?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 1234
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+# JWT 설정
+jwt:
+  secret: mySecretKeyForJWTTokenGenerationAndValidationMustBeAtLeast256Bits
+  access-token-expiration: 900000
+  refresh-token-expiration: 604800000
+  cookie:
+    max-age: 604800
+    secure: false
