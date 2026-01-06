@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ban.koreamarkers.domain.service.UserServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-01-06T09:22:52" hostname="bangilhyeon-ui-MacBookPro.local" time="0.475">
+  <properties/>
+  <testcase name="signup 저장 User 필드 검증 (ban / 반길현)" classname="ban.koreamarkers.domain.service.UserServiceTest" time="0.461"/>
+  <testcase name="signup 실패: 이메일 bbgiloo@gmail.com 중복" classname="ban.koreamarkers.domain.service.UserServiceTest" time="0.003"/>
+  <testcase name="signup 성공: ban / bbgiloo@gmail.com 회원가입 성공" classname="ban.koreamarkers.domain.service.UserServiceTest" time="0.004"/>
+  <testcase name="signup 실패: 아이디 ban 중복" classname="ban.koreamarkers.domain.service.UserServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
